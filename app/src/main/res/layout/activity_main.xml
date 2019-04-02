@@ -4,30 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6B6968"
     tools:context=".MainActivity">
+
     <TableRow>
         <TextView
             android:gravity="center"
-            android:background="#f20"
+            android:layout_weight="1"
             android:text="View 1"
-            android:textSize="40sp"/>
-        <TextView
-            android:gravity="center"
-            android:background="#E7C160"
-            android:text="View 2"
-            android:textSize="40sp"/>
-        <TextView
-            android:gravity="center"
-            android:background="#3637B1"
-            android:text="View 3"
-            android:textSize="40sp"/>
+            android:textSize="40sp"
+            android:background="#ff20"/>
     </TableRow>
     <TableRow>
         <TextView
             android:gravity="center"
-            android:background="#C738A8"
+            android:layout_weight="1"
+            android:text="View 2"
+            android:textSize="40sp"
+            android:background="#9C27B0"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="View 3"
+            android:textSize="40sp"
+            android:background="#493F3D"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
             android:text="View 4"
-            android:textSize="40sp"/>
+            android:textSize="40sp"
+            android:background="#3C75A3"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="View 5"
+            android:textSize="40sp"
+            android:background="#858585"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="View 6"
+            android:textSize="40sp"
+            android:background="#DFB658"/>
     </TableRow>
 
 </TableLayout>
